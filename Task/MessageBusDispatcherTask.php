@@ -46,7 +46,7 @@ class MessageBusDispatcherTask extends AbstractConfigurableTask
     {
         return (new Envelope($state->getInput()))
             ->with(
-                array_map(
+                ...array_map(
                     static function ($stamp) {
                         return new $stamp();
                     },
