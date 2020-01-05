@@ -27,6 +27,6 @@
     },
     "require": {
         "cleverage/process-bundle": "3.*|dev-v3.0-dev",
-        "symfony/messenger": "^5.0"
+        "symfony/messenger": "4.*"
     }
 }
